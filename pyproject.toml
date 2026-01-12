@@ -1,0 +1,18 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.71.0",
+    "fastapi[all]>=0.119.1",
+    "ipython>=9.6.0",
+    "langchain>=1.0.2",
+    "langchain-anthropic>=1.0.0",
+    "langchain-core>=1.0.3",
+    "langgraph>=1.0.1",
+    "pydantic>=2.12.3",
+    "pygame>=2.6.1",
+    "python-dotenv>=1.1.1",
+]
